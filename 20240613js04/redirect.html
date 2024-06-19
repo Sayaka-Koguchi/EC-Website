@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/daisyui@4.12.2/dist/full.min.css"
+    rel="stylesheet"
+    type="text/css"
+/>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="css/reset.css" />
+<link rel="stylesheet" href="css/style.css" />
+
+<script src="js/jquery-3.7.1.min.js"></script>
+<script type="module" src="js/script.js"></script>
+
+</head>
+<body>
+<h1>オンラインストア</h1>
+
+<div>商品<br>
+    <select name="itmes" size="5" multiple> 
+        <option value="T-Shart/W/S">T-Shart: White / S</option>
+        <option value="T-Shart/W/M">T-Shart: White / M</option>
+        <option value="T-Shart/W/L">T-Shart: White / L</option>
+        <option value="Skirt/G/S">Skirt: Grey / S</option>
+        <option value="Skirt/G/M">Skirt: Grey / M</option>
+        <option value="Skirt/G/L">Skirt: Grey / L</option>
+        <option value=""></option>
+    </select>
+</div>
+
+<button type="button" id="PurchaseButton">購入</button>
+<br>
+<ul id="result"></ul>
+
+
+<button type="button" id="resetButton">リセット</button><br>
+<button type="button" id="logoutButton">ログアウト</button>
+
+<div id="message" class="text-red-700 mb-4"></div>
+
+</body>
+</html>
